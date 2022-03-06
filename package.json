@@ -1,0 +1,41 @@
+{
+  "name": "tailwindcss-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielcedran/tailwindcss-intro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielcedran/tailwindcss-intro/issues"
+  },
+  "homepage": "https://github.com/gabrielcedran/tailwindcss-intro#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.3",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "parcel": "^2.3.2",
+    "prettier": "^2.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "dependencies": {
+    "react-router-dom": "^5.2.0"
+  }
+}
